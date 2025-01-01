@@ -2,7 +2,8 @@
 title: "My First Blog Post"
 date: "2023-10-01"
 description: "This is my first blog post on my new Gatsby site!"
-coverImage: "../images/profile-pic.png" # Path to the image
+coverImage: "./blog1.jpg" # Path to the image
+category: "Casual"
 ---
 
 # Welcome to My Blog

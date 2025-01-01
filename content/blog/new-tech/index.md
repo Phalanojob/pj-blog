@@ -3,6 +3,7 @@ title: "Exploring Zig: A New Programming Language"
 date: "2024-12-31"
 description: "An introduction to Zig, a new programming language designed for performance and safety."
 coverImage: "./images/zig-logo.png"
+category: "Software Engineer"
 ---
 
 # Exploring Zig: A New Programming Language

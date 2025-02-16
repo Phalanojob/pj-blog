@@ -42,25 +42,25 @@ const Header = () => {
       <ul className="flex grow justify-end flex-wrap items-center space-x-12">
         <a
           className="font-manrope font-semibold text-[14px] flex justify-center items-center py-1 px-2 rounded-md hover:text-primary hover:bg-[#D7E0EE]/20  text-black"
-          href="/search/"
+          href="http://www.phalanojob.com/search"
         >
           Jobs
         </a>
         <a
           className="font-manrope font-semibold text-[14px] flex justify-center items-center py-1 px-2 rounded-md hover:text-primary hover:bg-[#D7E0EE]/20  text-black"
-          href="https://bipin7giri.github.io/gatsby-blog/"
+          href="/"
         >
           Discover
         </a>
         <a
           className="font-manrope font-semibold text-[14px] flex justify-center items-center py-1 px-2 rounded-md hover:text-primary hover:bg-[#D7E0EE]/20  text-black"
-          href="https://dev.d3t64823eoaxhb.amplifyapp.com/for-jobseekers/"
+          href="http://www.phalanojob.com/for-jobseekers"
         >
           For job seekers
         </a>
         <a
           className="font-manrope font-semibold text-[14px] flex justify-center items-center py-1 px-2 rounded-md hover:text-primary hover:bg-[#D7E0EE]/20  text-black"
-          href="https://dev.d3t64823eoaxhb.amplifyapp.com/employers/"
+          href="http://www.phalanojob.com/employers/"
         >
           For Employers
         </a>
@@ -68,7 +68,7 @@ const Header = () => {
       <ul className="ml-12 flex justify-between items-center gap-5 mt-4">
         <li>
           <a
-            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/job-seeker/login"
+          href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/login"
             className=" font-manrope font-semibold text-[16px] text-primary flex justify-center h-[40px] items-center rounded-3xl border-[1px] border-primary hover:bg-[#E0E9F6] px-6 py-3 "
           >
             Login
@@ -76,7 +76,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/job-seeker/register"
+            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/register"
             className=" font-manrope font-semibold text-[16px] text-white flex justify-center h-[40px] items-center rounded-3xl bg-primary hover:bg-[#2c5794] px-6 py-3 "
           >
             Register
@@ -84,7 +84,7 @@ const Header = () => {
         </li>
         <li className="xl:block hidden">
           <a
-            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/employer/login"
+            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/login"
             className="  font-manrope font-semibold text-[16px] text-[#3b6baf] flex justify-center h-[40px] items-center hover:text-primary  "
           >
             For Employer

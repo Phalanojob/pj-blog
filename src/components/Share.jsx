@@ -52,7 +52,8 @@ const Share = () => {
       >
         <TikTok />
       </div>
-      <h1 className="text-[17px] text-[#000000] leading-[16.6px]">Share</h1>
+      <div> <h1 className="text-[16px] text-[#000000]">Share</h1></div>
+     
     </div>
   );
 };

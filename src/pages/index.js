@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
       <div className="max-w-[1400px] px-[20px] mx-auto mb-[48px]">
         <div className="flex justify-center items-center ">
           <div className="text-3xl text-gray-700 font-medium mt-[24px]">
-            <h1>Career Blogs</h1>
+            <h1>Career Blogs abcd</h1>
           </div>
         </div>
 

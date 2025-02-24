@@ -30,7 +30,7 @@ const BlogPostTemplate = ({
             >
               {post.frontmatter.title}
             </h1>
-            <div className="border-b-[1px] border-gray-200 pb-4">
+            <div className="border-b-[1px] border-gray-200 pb-3">
               <Share />
 
               <div className=" mt-4 text-sm text-gray-500 font-medium">

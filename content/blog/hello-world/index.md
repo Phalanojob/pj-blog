@@ -3,6 +3,7 @@ title: Edited Blog Latest
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello Nepal"
 category: "Hiring & Recruitiment"
+coverImage: "./salty_egg.jpg" # Path to the image
 ---
 
 This is my latest blog post on my new fake blog! How exciting!

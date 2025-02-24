@@ -29,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
       <Header />
       <div className="max-w-[1400px] px-[20px] mx-auto mb-[48px]">
         <div className="flex justify-center items-center ">
-          <div className="text-3xl text-gray-800 font-semibold mt-[32px]">
+          <div className="text-3xl text-gray-700 font-medium mt-[24px]">
             <h1>Career Blogs</h1>
           </div>
         </div>
@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
         </div>
 
         {/* Posts */}
-        <div className="w-[95%] mx-auto">
+        <div className="w-[95%] mx-auto pt-[24px]">
           <div className="flex flex-wrap gap-8 justify-start w-full">
             {filteredPosts.map(post => {
               const title = post.frontmatter.title || post.fields.slug
@@ -82,21 +82,21 @@ const BlogIndex = ({ data, location }) => {
                       />
                     </div>
                     <div className="py-2 px-4 flex justify-start items-center sm:w-[90%] w-full">
-                      <h1 className="text-gray-600 font-display text-[18px] font-semibold leading-7">
+                      <h1 className="text-gray-600 font-display text-[22px] font-semibold leading-7">
                         {title}
                       </h1>
                     </div>
-                    <div className=" px-4 flex justify-start items-center w-[95%] overflow-y-hidden pb-[24px]">
-                      <section className="text-gray-500 sm:w-[439px] w-auto mt-[12px] font-normal text-[14px] leading-normal">
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              post.frontmatter.description || post.excerpt,
-                          }}
-                          itemProp="description"
-                        />
-                      </section>
-                    </div>
+                    // <div className=" px-4 flex justify-start items-center w-[95%] overflow-y-hidden pb-[24px]">
+                    //   <section className="text-gray-500 sm:w-[439px] w-auto mt-[12px] font-normal text-[14px] leading-normal">
+                    //     <p
+                    //       dangerouslySetInnerHTML={{
+                    //         __html:
+                    //           post.frontmatter.description || post.excerpt,
+                    //       }}
+                    //       itemProp="description"
+                    //     />
+                    //   </section>
+                    // </div>
                     <div className="px-4 border-t-[1px] pt-2 border-gray-200 flex justify-between items-center gap-2 text-primary text-[14px]">
                       <p>{post.frontmatter.date}</p>
                       <p>{readingTime}</p>

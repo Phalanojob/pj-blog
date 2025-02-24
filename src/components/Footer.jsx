@@ -21,7 +21,7 @@ const Footer = () => {
           {/* about company */}
           <div className="">
             <div className="">
-              <Link to={"https://dev.d3t64823eoaxhb.amplifyapp.com/"} className="hover:cursor-pointer">
+              <Link to={"https://www.phalanojob.com/"} className="hover:cursor-pointer">
                 <PJLogoIcon  />
               </Link>
             </div>
@@ -56,7 +56,7 @@ const Footer = () => {
               <ul>
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/about-us"}
+                    to={"https://www.phalanojob.com/about-us"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     About Us
@@ -67,7 +67,7 @@ const Footer = () => {
                 </li> */}
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/privacy-policy"}
+                    to={"https://www.phalanojob.com/privacy-policy"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Privacy policy
@@ -75,7 +75,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/termsandservice"}
+                    to={"https://www.phalanojob.com/termsandservice"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Terms & service
@@ -95,7 +95,7 @@ const Footer = () => {
               <ul>
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/search"}
+                    to={"https://www.phalanojob.com/search"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Overview
@@ -134,7 +134,7 @@ const Footer = () => {
               <ul>
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/"}
+                    to={"https://www.phalanojob.com/"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Overview
@@ -142,7 +142,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/employers/terms-of-service"}
+                    to={"https://www.phalanojob.com/employers/terms-of-service"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Employer Terms of service
@@ -153,7 +153,7 @@ const Footer = () => {
                 </li> */}
                 <li className="pt-[11px]">
                   <Link
-                    to={"https://dev.d3t64823eoaxhb.amplifyapp.com/pricing"}
+                    to={"https://www.phalanojob.com/pricing"}
                     className=" hover:text-primary hover:font-medium"
                   >
                     Pricing

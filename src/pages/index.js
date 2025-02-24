@@ -86,17 +86,6 @@ const BlogIndex = ({ data, location }) => {
                         {title}
                       </h1>
                     </div>
-                    // <div className=" px-4 flex justify-start items-center w-[95%] overflow-y-hidden pb-[24px]">
-                    //   <section className="text-gray-500 sm:w-[439px] w-auto mt-[12px] font-normal text-[14px] leading-normal">
-                    //     <p
-                    //       dangerouslySetInnerHTML={{
-                    //         __html:
-                    //           post.frontmatter.description || post.excerpt,
-                    //       }}
-                    //       itemProp="description"
-                    //     />
-                    //   </section>
-                    // </div>
                     <div className="px-4 border-t-[1px] pt-2 border-gray-200 flex justify-between items-center gap-2 text-primary text-[14px]">
                       <p>{post.frontmatter.date}</p>
                       <p>{readingTime}</p>

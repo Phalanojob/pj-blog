@@ -2,7 +2,7 @@
 title: "How to Write the Perfect Resume in 2025"
 date: "2025-02-26"
 description: "A guide to crafting a standout resume for the competitive job market of 2025."
-coverImage: "./images/resume-guide.png"
+coverImage: "./resume-guide.png"
 category: "Career Advice"
 ---
 

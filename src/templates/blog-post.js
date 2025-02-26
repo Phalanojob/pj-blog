@@ -26,7 +26,7 @@ const BlogPostTemplate = ({
           <header>
             <h1
               itemProp="headline"
-              className="text-gray-800 font-manrope text-start md:text-[36px] text-[28px] pt-[32px] font-medium"
+              className="text-gray-800 text-xl font-manrope text-start md:text-[36px] text-[28px] pt-[32px] font-bold"
             >
               {post.frontmatter.title}
             </h1>

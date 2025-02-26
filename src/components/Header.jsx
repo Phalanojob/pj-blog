@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className="w-full bg-[#ffffff] hidden lg:block border-b-[1px] border-gray-100 mt-4">
+    <header className="w-full bg-[#ffffff] hidden lg:block border-b-[1px] border-gray-100">
   <div className="2xl:w-[80%] xl:w-[95%] mx-auto  sm:px-6">
-    <div className="flex items-center justify-between h-15 md:h-20">
+    <div className="flex items-center justify-between">
       <a className="hover:cursor-pointer" href="/">
         <svg
           width={130}
@@ -39,7 +39,7 @@ const Header = () => {
           />
         </svg>
       </a>
-      <ul className="flex grow justify-end flex-wrap items-center space-x-12">
+      <ul className="flex grow justify-end flex-wrap items-center space-x-12 mb-0">
         <a
           className="font-manrope font-semibold text-[14px] flex justify-center items-center py-1 px-2 rounded-md hover:text-primary hover:bg-[#D7E0EE]/20  text-black"
           href="http://www.phalanojob.com/search"

@@ -82,7 +82,7 @@ const BlogIndex = ({ data, location }) => {
                       />
                     </div>
                     <div className="py-2 px-4 flex justify-start items-center sm:w-[90%] w-full">
-                      <h1 className="text-gray-700 font-display text-[22px] font-bold leading-7 tracking-wide">
+                      <h1 className="text-gray-700 font-display text-[22px] font-bold leading-7 tracking-wide hover:text-primary mt-4 mb-4">
                         {title}
                       </h1>
                     </div>

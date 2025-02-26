@@ -2,7 +2,7 @@
 title: "The Complete Guide to Hiring Your First Engineer"
 date: "2025-02-26"
 description: "A step-by-step guide to successfully hiring your first engineer for your growing company."
-coverImage: "./images/hiring-first-engineer.jpg"
+coverImage: "./tech-hiring-nepal.png"
 category: "Hiring & Recruitment"
 ---
 

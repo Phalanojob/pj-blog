@@ -23,13 +23,15 @@ const BlogPostTemplate = ({
           itemScope
           itemType="http://schema.org/Article"
         >
-          <header>
-            <h1
-              itemProp="headline"
-              className="text-gray-800 text-xl font-manrope text-start md:text-[36px] text-[28px] pt-[32px] font-bold"
-            >
-              {post.frontmatter.title}
-            </h1>
+         
+          <article className=" flex items-start mt-6">
+             <header>
+            // <h1
+            //   itemProp="headline"
+            //   className="text-gray-800 text-xl font-manrope text-start md:text-[36px] text-[28px] pt-[32px] font-bold"
+            // >
+            //   {post.frontmatter.title}
+            // </h1>
             <div className="border-b-[1px] border-gray-200 pb-3">
               <Share />
 
@@ -42,7 +44,6 @@ const BlogPostTemplate = ({
               <div></div>
             </div>
           </header>
-          <article className=" flex items-start mt-6">
             <div
               className="text-[18px] font-display leading-7"
               dangerouslySetInnerHTML={{ __html: post.html }}
@@ -54,7 +55,7 @@ const BlogPostTemplate = ({
           <Bio />
         </footer> */}
         </article>
-        <nav className="blog-post-nav">
+        <nav className="blog-post-nav mt-6">
           <ul
             style={{
               display: `flex`,

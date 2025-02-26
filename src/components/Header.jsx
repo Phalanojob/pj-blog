@@ -68,7 +68,7 @@ const Header = () => {
       <ul className="ml-12 flex justify-between items-center gap-5 mt-4">
         <li>
           <a
-          href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/login"
+          href="https://www.phalanojob.com/auth/login/"
             className=" font-manrope font-semibold text-[16px] text-primary flex justify-center h-[40px] items-center rounded-3xl border-[1px] border-primary hover:bg-[#E0E9F6] px-6 py-3 "
           >
             Login
@@ -76,7 +76,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/register"
+            href="https://www.phalanojob.com/auth/job-seeker/register/"
             className=" font-manrope font-semibold text-[16px] text-white flex justify-center h-[40px] items-center rounded-3xl bg-primary hover:bg-[#2c5794] px-6 py-3 "
           >
             Register
@@ -84,7 +84,7 @@ const Header = () => {
         </li>
         <li className="xl:block hidden">
           <a
-            href="https://dev.d3t64823eoaxhb.amplifyapp.com/auth/login"
+            href="https://www.phalanojob.com/auth/login/"
             className="  font-manrope font-semibold text-[16px] text-[#3b6baf] flex justify-center h-[40px] items-center hover:text-primary  "
           >
             For Employer

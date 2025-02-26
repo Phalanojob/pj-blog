@@ -65,7 +65,7 @@ const Header = () => {
           For Employers
         </a>
       </ul>
-      <ul className="ml-12 flex justify-between items-center gap-5 mt-4">
+      <ul className="ml-12 flex justify-between items-center gap-5 mt-4 mb-0">
         <li>
           <a
           href="https://www.phalanojob.com/auth/login/"

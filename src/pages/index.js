@@ -29,8 +29,8 @@ const BlogIndex = ({ data, location }) => {
       <Header />
       <div className="max-w-[1400px] px-[20px] mx-auto mb-[48px]">
         <div className="flex justify-center items-center ">
-          <div className="text-3xl text-gray-700 font-medium mt-[24px]">
-            <h1>Career Blogs abcd</h1>
+          <div className="text-3xl text-gray-700 font-medium">
+            <h1>Career Blogs</h1>
           </div>
         </div>
 
@@ -58,7 +58,7 @@ const BlogIndex = ({ data, location }) => {
 
         {/* Posts */}
         <div className="w-[95%] mx-auto pt-[24px]">
-          <div className="flex flex-wrap gap-8 justify-start w-full">
+          <div className="flex flex-wrap gap-8 justify-start w-full md:ml-4">
             {filteredPosts.map(post => {
               const title = post.frontmatter.title || post.fields.slug
               const image = getImage(
@@ -86,9 +86,9 @@ const BlogIndex = ({ data, location }) => {
                         {title}
                       </h1>
                     </div>
-                    <div className="px-4 border-t-[1px] pt-2 border-gray-200 flex justify-between items-center gap-2 text-primary text-[14px]">
-                      <p>{post.frontmatter.date}</p>
-                      <p>{readingTime}</p>
+                    <div className="px-4 border-t-[1px] pt-2 border-gray-200 flex justify-between items-center gap-2 text-primary text-[14px] font-medium">
+                      <p className="m-2">{post.frontmatter.date}</p>
+                      <p className="m-2">{readingTime}</p>
                     </div>
                   </div>
                 </Link>

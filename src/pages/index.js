@@ -33,9 +33,8 @@ const BlogIndex = ({ data, location }) => {
             <h1>Career Blogs</h1>
           </div>
         </div>
-
         {/* Category Tabs */}
-        <div className="flex justify-center my-4 space-x-4">
+        <div className="flex justify-start my-4 overflow-x-auto pb-2 scrollbar-hide">
           {["All", ...categories].map(category => (
             <button
               key={category}
@@ -54,8 +53,7 @@ const BlogIndex = ({ data, location }) => {
               </div>
             </button>
           ))}
-        </div>
-
+        </div>{" "}
         {/* Posts */}
         <div className="w-[95%] mx-auto pt-[24px]">
           <div className="flex flex-wrap gap-8 justify-start w-full md:ml-4">

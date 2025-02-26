@@ -23,37 +23,31 @@ const BlogPostTemplate = ({
           itemScope
           itemType="http://schema.org/Article"
         >
-         
-          <article className=" flex items-start mt-6">
-             <header>
-            // <h1
-            //   itemProp="headline"
-            //   className="text-gray-800 text-xl font-manrope text-start md:text-[36px] text-[28px] pt-[32px] font-bold"
-            // >
-            //   {post.frontmatter.title}
-            // </h1>
-            <div className="border-b-[1px] border-gray-200 pb-3">
-              <Share />
-
-              <div className=" mt-4 text-sm text-gray-500 font-medium">
-                Posted: {post.frontmatter.date}
+          <article className="flex flex-col items-start mt-6">
+            <header className="w-full">
+              <h1
+                itemProp="headline"
+                className="text-gray-800 text-xl font-manrope text-start md:text-[36px] text-[24px] pt-[24px] md:pt-[32px] font-bold"
+              >
+                {post.frontmatter.title}
+              </h1>
+              <div className="border-b-[1px] border-gray-200 pb-3">
+                <Share />
+                <div className="mt-4 text-sm text-gray-500 font-medium">
+                  Posted: {post.frontmatter.date}
+                </div>
+                <div className="mt-2 text-sm text-primary font-medium">
+                  Phalano Job
+                </div>
+                <div></div>
               </div>
-              <div className=" mt-2 text-sm text-primary font-medium">
-                Phalano Job
-              </div>
-              <div></div>
-            </div>
-          </header>
+            </header>
             <div
-              className="text-[18px] font-display leading-7"
+              className="text-[16px] md:text-[18px] font-display leading-7 w-full mt-4"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-          </article>
-
+          </article>{" "}
           <hr />
-          {/* <footer>
-          <Bio />
-        </footer> */}
         </article>
         <nav className="blog-post-nav mt-6">
           <ul

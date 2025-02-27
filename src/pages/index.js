@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
           </div>
         </div>
         {/* Category Tabs */}
-        <div className="flex justify-start my-4 overflow-x-auto pb-2 scrollbar-hide">
+        <div className="flex justify-center my-4 overflow-x-auto pb-2 scrollbar-hide">
           {["All", ...categories].map(category => (
             <button
               key={category}

@@ -2,8 +2,8 @@
 title: "Tell Me About Yourself" Sample Answers For Interview
 date: "2025-04-23"
 description: "Struggling with the classic 'Tell me about yourself' interview question? This post shares practical tips and sample answers for freshers to help you shine!"
-coverImage: "./blog1.jpg"
-category: "Casual"
+coverImage: "./Blog1.avif"
+category: "Interviews"
 ---
 
 # "Tell Me About Yourself" – Sample Answers for Freshers

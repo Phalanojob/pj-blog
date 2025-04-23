@@ -1,5 +1,5 @@
 ---
-title: "Tell Me About Yourself" Sample Answers For Interview
+title: "Tell Me About Yourself Sample Answers For Interview"
 date: "2025-04-23"
 description: "Struggling with the classic 'Tell me about yourself' interview question? This post shares practical tips and sample answers for freshers to help you shine!"
 coverImage: "./Blog1.avif"
